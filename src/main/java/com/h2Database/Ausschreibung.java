@@ -39,7 +39,9 @@ public class Ausschreibung {
     public String getAuftragGeber() {
         return auftragGeber;
     }
-
+    public Long getId() {
+        return id;
+    }
     public String getVergabeNummer() {
         return vergabeNummer;
     }
