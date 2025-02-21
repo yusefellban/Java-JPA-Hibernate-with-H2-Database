@@ -10,12 +10,14 @@ This project demonstrates how to integrate **JPA (Java Persistence API)** with *
 - **Reading tenders from a CSV file**
 - **Storing data in a relational database**
 - **Executing JPQL queries** to fetch and display data
+- **JUnit 5 test cases for all functionalities**
 
 ## 🛠️ Technologies Used
 - **Java 21**
 - **JPA (Jakarta Persistence API)**
 - **Hibernate ORM**
 - **H2 Database**
+- **JUnit 5**
 - **Maven**
 
 ## 📂 Project Structure
@@ -26,6 +28,8 @@ This project demonstrates how to integrate **JPA (Java Persistence API)** with *
  ┃ ┣ 📜 Program.java        # Main Execution Program
  ┣ 📂 src/main/resources/META-INF
  ┃ ┣ 📜 persistence.xml    # Hibernate Configuration
+ ┣ 📂 src/test/java/com/h2Database
+ ┃ ┣ 📜 ProgramTest.java   # JUnit 5 Test Cases
  ┣ 📜 meerbusch-aktuelle-ausschreibungen.csv  # CSV Data File
  ┣ 📜 pom.xml  # Maven Configuration
  ┣ 📜 README.md  # Project Documentation
@@ -50,10 +54,17 @@ Execute the main class:
 mvn exec:java -Dexec.mainClass="com.h2Database.Program"
 ```
 
+### 4️⃣ Run Tests
+Execute all test cases using:
+```sh
+mvn test
+```
+
 ## 📊 How It Works
 1️⃣ Reads tender data from `meerbusch-aktuelle-ausschreibungen.csv`
 2️⃣ Parses and stores them in an **H2 database**
 3️⃣ Runs a **JPQL query** to retrieve and display tenders in a structured format
+4️⃣ Validates functionalities using **JUnit 5 test cases**
 
 ## 📜 Example Output
 ```
@@ -72,7 +83,6 @@ Angebotsabgabefrist: 2025-01-22
 3️⃣ Commit your changes (`git commit -m "Added feature XYZ"`)
 4️⃣ Push to your branch (`git push origin feature-name`)
 5️⃣ Open a Pull Request 🚀
-
 
 ---
 🔗 **Follow Me:** [GitHub](https://github.com/yusefellban) | [LinkedIn](https://linkedin.com/in/youssef-ellban)
