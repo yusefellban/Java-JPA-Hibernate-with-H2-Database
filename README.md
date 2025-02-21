@@ -73,9 +73,7 @@ Angebotsabgabefrist: 2025-01-22
 4️⃣ Push to your branch (`git push origin feature-name`)
 5️⃣ Open a Pull Request 🚀
 
-## 📄 License
-This project is licensed under the **MIT License**.
 
 ---
-🔗 **Follow Me:** [GitHub](https://github.com/YOUSEF-EL-LLBAN) | [LinkedIn](https://linkedin.com/in/YOUSEF-EL-LLBAN)
+🔗 **Follow Me:** [GitHub](https://github.com/yusefellban) | [LinkedIn](https://linkedin.com/in/youssef-ellban)
 
